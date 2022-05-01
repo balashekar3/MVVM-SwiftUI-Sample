@@ -13,6 +13,7 @@ struct ContentView: View {
    
     var body: some View {
         VStack{
+            Text("Welcome to SwiftUI App").font(.headline)
             Text(viewModel.name)
                 .padding()
             Text(viewModel.place)
@@ -20,7 +21,7 @@ struct ContentView: View {
             Button("Change Data"){
                 viewModel.changeData("Data changed")
             }
-        }.font(.largeTitle)
+        }.font(.body)
     }
 }
 

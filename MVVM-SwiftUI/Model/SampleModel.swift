@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 struct SampleModel {
     var name:String
     var place:String

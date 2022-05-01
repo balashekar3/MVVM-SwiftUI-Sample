@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 class SampleViewModel: ObservableObject {
+    
     @Published private var data = SampleModel(name: "Apple", place: "US")
     
     var name : String {

@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     
     @StateObject var viewModel = SampleViewModel()
-   
     var body: some View {
         VStack{
             Text("Welcome to SwiftUI App").font(.headline)
